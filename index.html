@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata of the Webpage -->
+  <!-- Character-set Metadata -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Viewport Metadata -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Description Metadata-->
+  <meta name="description" content="Portfolio Website" />
+  <!-- Author Metadata -->
+  <meta name="author" content="Aditya Vikram Singh" />
+  <!-- Keyword Metadata -->
+  <meta name="keywords" content="Aditya Singh, Aditya Vikram Singh, Aditya Vikram Singh DPS,
+        Aditya Vikram Singh DPSRKP, Aditya Vikram Singh UMass, Aditya Vikram
+        Singh UMass Amherst, Aditya Vikram Singh New Delhi, Aditya Vikram
+        Singh Amherst, Aditya Vikram Singh ISSDC, Aditya Vikram Singh NASA,
+        Aditya Vikram Singh, Aditya Vikram Singh Website, Aditya V Singh" />
+  <!-- Webpage Logo -->
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+  <!-- Webpage Title -->
+  <title>Raj Birari</title>
+
+  <!-- Import CSS: Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <div id="particles-js">
+    <div class="header">
+      <h1>
+        <span class="site-title">Raj Vasudev Birari</span>
+        <span class="site-description">Devops • Cloud Engineer</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/raj-birari-4338093a5/">
+          <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a aria-label="My Github Profile" target="_blank" href="https://github.com/rajvbiw">
+          <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+        </a>
+        <a aria-label="My Résumé" target="_blank" href="raj_birari_resume.pdf">
+          <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+        </a>
+        <a aria-label="Send Email" href="mailto:rajbirari.work@gmail.com" target="_blank"><i
+            class="icon fa fa-envelope"></i></a>
+      </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#projects" data-scroll>Projects</a>
+      </div>
+    </div>
+    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <!-- User Introduction-->
+    <div class="user-details">
+      <h1>About Me</h1>
+      <picture>
+        <source type="image/webp" srcset="./assets/img/webp/profile.jpeg" alt="Professional Me" width="20%"
+          style="border-radius: 50%" />
+        <img src="./assets/img/jpg/profile.jpeg" alt="Professional Me" width="20%" style="border-radius: 50%" />
+      </picture>
+      <p style="text-align: justify; text-indent: 40px;">
+        I am a junior undergraduate student at a Government Engineering College, pursuing a degree in Computer
+        Engineering with a strong interest in DevOps and Cloud Engineering.I enjoy designing, deploying, and maintaining
+        scalable systems that emphasize automation, reliability, and performance.My technical focus includes CI/CD
+        pipelines, containerization, cloud platforms, and infrastructure automation.I am passionate about learning
+        modern DevOps tools and best practices, and I actively apply them through hands-on projects and real-world
+        problem solving.I am seeking opportunities in DevOps and Cloud Engineering where I can grow as an engineer,
+        contribute to impactful projects, and build robust, production-ready systems.
+      </p>
+    </div>
+
+    <!-- User Specifics -->
+    <div class="user">
+
+      <div class="tech">
+        <h2>Tools</h2>
+        <i class="devicon-git-plain-wordmark colored"></i>
+        <i class="devicon-visualstudio-plain colored"></i>
+        <i class="devicon-github-plain-wordmark colored"></i>
+        <i class="devicon-docker-plain-wordmark colored"></i>
+        <p>My favorite tools for version control, code editing, and container orchestration.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="user-details">
+      <h1>Featured Projects</h1>
+    </div>
+    <div class="user-projects">
+      <div class="images-right">
+        <picture>
+          <img alt="Two-Tier Flask + MySQL Application" src="./assets/img/jpg/project 1.png" />
+        </picture>
+      </div>
+      <div class="contents" style="text-align: center">
+        <h3>Two-Tier Flask + MySQL Application</h3>
+
+        <p style="text-align: justify">
+
+          A containerized two-tier web application built using Flask (Python) and MySQL, deployed with Docker and Docker
+          Compose. The project demonstrates service separation, persistent database storage, and multi-container
+          orchestration following real-world DevOps practices.
+
+          Tech Stack: Python, Flask, MySQL, Docker, Docker Compose, Linux
+        </p>
+        <a class="project-link" target="_blank" href="https://github.com/rajvbiw/Flask_app.git">Check it out!</a>
+      </div>
+    </div>
+
+    <div class="user-projects">
+      <div class="images-left">
+        <picture>
+          <img alt="Perpetual Crusades" src="./assets/img/jpg/project 2.png" />
+        </picture>
+      </div>
+      <div class="contents-right" style="text-align: center; padding-top: 200px;">
+        <h3>Dockerized Notes App (DevOps Project)</h3>
+        Built a production-style Notes application using Docker & Docker Compose, with Django (Gunicorn) as backend,
+        NGINX as a reverse proxy, and MySQL for persistent storage.
+        Demonstrates container orchestration, service isolation, networking, and scalable deployment practices.
+
+        Tech Stack: Docker, Docker Compose, NGINX, Django, MySQL, Linux
+        Focus: Real-world DevOps deployment & cloud-ready architecture 
+        </p>
+        <a class="project-link" target="_blank" href="https://github.com/rajvbiw/Dockerized_Notes_App.git">Check it out!</a>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>&copy; Raj Vasudev Birari, 2026</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
